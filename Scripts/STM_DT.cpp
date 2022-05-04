@@ -120,7 +120,7 @@ Type objective_function<Type>::operator() (){
     REPORT(mu_st);
     REPORT(mu_depth);
     REPORT(mu_temperature);
-    ADREPORT(mu);
+    // ADREPORT(mu);
     ADREPORT(beta);
     ADREPORT(beta_s);
     ADREPORT(beta_t);
