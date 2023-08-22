@@ -108,7 +108,7 @@ Type objective_function<Type>::operator() (){
     REPORT(mu_s);
     REPORT(mu_t);
     REPORT(mu_st);
-    ADREPORT(mu);
+    // ADREPORT(mu);
     ADREPORT(beta);
     ADREPORT(beta_s);
     ADREPORT(beta_t);
